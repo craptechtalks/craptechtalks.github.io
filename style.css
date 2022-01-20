@@ -7,7 +7,8 @@
 }
 .name{
     text-align: center;
-    background: linear-gradient();
+    background: linear-gradient(white,green);
+    
 }
 .tvb{
     width: 100%;
@@ -20,19 +21,8 @@
 .sharingopt{
     width: 100px;
     height: 210px;
-    background: linear-gradient(white,green);
     text-align: center;
-    border: 3px black solid;
     padding: 5px;
-    position: fixed;
-    z-index: 2;
-    bottom: 0;
-    right: 0;
-    opacity: 0.5;
-    transition: 0.5s;
-}
-.sharingopt:hover{
-    opacity: 1;
     transition: 0.5s;
 }
 .sharingopt a{
@@ -50,7 +40,7 @@
 /* CSS Navbar */
 .navbar .line{
     height: 1000px;
-    width: 4px;
+    width: 2px;
     background: linear-gradient(white,darkgreen);
     position: absolute;
     top: -450px;
@@ -84,4 +74,19 @@ nav li a{
     top: 200%;
     position: absolute;
     background-color: grey;
+}
+.fa-whatsapp{
+    color: #25D366;
+}
+.fa-facebook-square{
+    color: #4267B2;
+}
+.fa-instagram{
+    background: linear-gradient(#405DE6,
+    #5851DB, #833AB4, #C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.fa-twitter{
+    color: #00acee;
 }
